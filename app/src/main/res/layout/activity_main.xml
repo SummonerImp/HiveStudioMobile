@@ -21,6 +21,7 @@
             android:layout_width="327dp"
             android:layout_height="376dp"
             android:layout_gravity="center"
+            android:contentDescription="Logo"
             app:srcCompat="@mipmap/hivestudio_logo" />
 
         <EditText
