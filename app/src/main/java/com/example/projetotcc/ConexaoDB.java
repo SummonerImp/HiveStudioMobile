@@ -4,8 +4,6 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import androidx.annotation.Nullable;
-
 public class ConexaoDB extends SQLiteOpenHelper {
 
     private static final String name = "bancotcc.db";
@@ -17,8 +15,8 @@ public class ConexaoDB extends SQLiteOpenHelper {
     }
 
     @Override
-    public void onCreate(SQLiteDatabase sqLiteDatabase) {
-
+    public void onCreate(SQLiteDatabase db) {
+        db.execSQL("");
     }
 
     @Override

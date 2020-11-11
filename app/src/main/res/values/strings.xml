@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Projeto TCC</string>
+    <string name="mainBtnSignIn">Entrar</string>
+    <string name="mainTxtUser">Usuário</string>
+    <string name="mainTxtPassword">Senha</string>
+    <string name="mainCkbRemindMe">Lembrar de Mim</string>
+    <string name="mainLblForgotPassword">Esqueci a Senha</string>
+    <string name="mainLblSignUp">Não tem uma conta?</string>
 </resources>
