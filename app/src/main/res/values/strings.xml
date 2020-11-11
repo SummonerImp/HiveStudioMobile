@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Projeto TCC</string>
+    <string name="app_name">HiveStudio</string>
     <string name="mainBtnSignIn">Entrar</string>
     <string name="mainTxtUser">Usuário</string>
     <string name="mainTxtPassword">Senha</string>
