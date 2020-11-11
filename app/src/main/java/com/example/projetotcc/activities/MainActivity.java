@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         getSupportActionBar().hide();
-        getWindow().setNavigationBarColor(getResources().getColor(R.color.brown));
+        getWindow().setNavigationBarColor(getResources().getColor(R.color.bistre));
+        getWindow().setStatusBarColor(getResources().getColor(R.color.bistre));
     }
 }
