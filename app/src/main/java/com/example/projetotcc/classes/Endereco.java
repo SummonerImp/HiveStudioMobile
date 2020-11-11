@@ -1,4 +1,4 @@
-package com.example.projetotcc;
+package com.example.projetotcc.classes;
 
 public class Endereco {
     private int enderecoId;
