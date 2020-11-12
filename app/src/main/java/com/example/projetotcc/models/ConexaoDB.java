@@ -1,4 +1,4 @@
-package com.example.projetotcc.classes;
+package com.example.projetotcc.models;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

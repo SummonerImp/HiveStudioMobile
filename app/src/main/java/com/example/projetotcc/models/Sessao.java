@@ -1,7 +1,6 @@
-package com.example.projetotcc.classes;
+package com.example.projetotcc.models;
 
 import java.sql.Time;
-import java.util.Date;
 
 public class Sessao {
     private int sessaoId;

@@ -5,15 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#291A14"
-    tools:context=".activities.MainActivity">
+    tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="411dp"
-        android:layout_height="729dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
@@ -65,13 +63,14 @@
 
             <TextView
                 android:id="@+id/mainLblForgotPassword"
-                android:layout_width="38dp"
+                android:layout_width="39dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:layout_weight="1"
                 android:text="@string/mainLblForgotPassword"
                 android:textColor="@android:color/white"
                 android:textSize="12sp" />
+
         </LinearLayout>
 
         <Button
@@ -81,6 +80,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="30dp"
             android:background="@drawable/radius_button"
+            android:onClick="onLoginPress"
             android:text="@string/mainBtnSignIn" />
 
         <TextView
@@ -93,4 +93,5 @@
             android:textColor="@android:color/white"
             android:textSize="12sp" />
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
