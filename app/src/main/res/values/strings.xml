@@ -6,4 +6,8 @@
     <string name="mainCkbRemindMe">Lembrar de Mim</string>
     <string name="mainLblForgotPassword">Esqueci a Senha</string>
     <string name="mainLblSignUp">Não tem uma conta?</string>
+    <string name="pagFotName">Sem nome</string>
+    <string name="pagFotRate">Nota</string>
+    <string name="pagFotXp">Tempo de Experiência</string>
+    <string name="pagFotSolicitar">Solicitar</string>
 </resources>

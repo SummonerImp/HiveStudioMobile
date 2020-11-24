@@ -1,4 +1,4 @@
-package com.example.projetotcc;
+package com.example.projetotcc.models;
 
 import org.json.JSONObject;
 

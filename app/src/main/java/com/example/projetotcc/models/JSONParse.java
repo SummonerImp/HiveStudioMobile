@@ -1,7 +1,9 @@
-package com.example.projetotcc;
+package com.example.projetotcc.models;
 
 import android.os.AsyncTask;
 import android.util.Log;
+
+import com.example.projetotcc.models.AsyncResponse;
 
 import org.json.JSONException;
 import org.json.JSONObject;

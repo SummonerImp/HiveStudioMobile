@@ -9,7 +9,8 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import org.json.JSONObject;
+import com.example.projetotcc.models.AsyncResponse;
+import com.example.projetotcc.models.JSONParse;
 
 public class MainActivity extends AppCompatActivity {
     Button btnLogin;
@@ -31,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         lblForgotPassword = findViewById(R.id.mainLblForgotPassword);
         lblSignUp = findViewById(R.id.mainLblSignUp);
         chkRemindMe = findViewById(R.id.mainChkRemindMe);
+        jsonParse.delegate = (AsyncResponse)this;
         jsonParse.execute("");
     }
 
