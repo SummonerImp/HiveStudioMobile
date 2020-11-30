@@ -16,7 +16,7 @@ public class ConexaoDB extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        db.execSQL("");
+        db.execSQL("create table loginSalvo(email varchar(150), senha varchar(200))");
     }
 
     @Override

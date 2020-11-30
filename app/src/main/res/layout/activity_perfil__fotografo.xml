@@ -7,7 +7,6 @@
     android:background="@color/smoky_black"
     tools:context=".Perfil_Fotografo">
 
-
     <TextView
         android:id="@+id/textView3"
         android:layout_width="136dp"
@@ -57,7 +56,7 @@
         android:fontFamily="@font/anton"
         android:scaleType="centerCrop"
         android:text="@string/pagFotName"
-        android:textColor="@android:color/black"
+        android:textColor="@android:color/white"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
@@ -65,12 +64,13 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnSolicitar"
         android:layout_width="128dp"
         android:layout_height="50dp"
         android:layout_marginTop="236dp"
         android:background="@drawable/radius_button_white"
         android:gravity="center"
+        android:onClick="onPressSolicitar"
         android:scaleType="centerCrop"
         android:text="@string/pagFotSolicitar"
         android:textSize="18sp"

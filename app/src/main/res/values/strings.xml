@@ -1,4 +1,5 @@
 <resources>
+    <!--Tela Principal(Login)-->
     <string name="app_name">HiveStudio</string>
     <string name="mainBtnSignIn">Entrar</string>
     <string name="mainTxtUser">Usuário</string>
@@ -6,8 +7,34 @@
     <string name="mainCkbRemindMe">Lembrar de Mim</string>
     <string name="mainLblForgotPassword">Esqueci a Senha</string>
     <string name="mainLblSignUp">Não tem uma conta?</string>
+
+    <!--Tela Perfil Fotógrafo -->
     <string name="pagFotName">Sem nome</string>
     <string name="pagFotRate">Nota</string>
     <string name="pagFotXp">Tempo de Experiência</string>
     <string name="pagFotSolicitar">Solicitar</string>
+
+    <!--Tela Solicitação fotografo -->
+    <string name="fotSoliLocal">Localização</string>
+    <string name="fotSolibtnSolicitar">Solicitar</string>
+    <string name="fotSolidata">Data</string>
+    <string name="fotSoliName">Sem nome</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_all_fotografos">AllFotografos</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="title_activity_todos_fotografos">TodosFotografos</string>
+
+
 </resources>
