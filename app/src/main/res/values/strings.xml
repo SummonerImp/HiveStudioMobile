@@ -17,18 +17,31 @@
     <!--Tela Solicitação fotografo -->
     <string name="fotSoliLocal">Localização</string>
     <string name="fotSolibtnSolicitar">Solicitar</string>
-    <string name="fotSolidata">Data</string>
-    <string name="fotSoliName">Sem nome</string>
-    <string name="title_activity_login">LoginActivity</string>
-    <string name="prompt_email">Email</string>
-    <string name="prompt_password">Password</string>
-    <string name="action_sign_in">Sign in or register</string>
-    <string name="action_sign_in_short">Sign in</string>
-    <string name="welcome">"Welcome !"</string>
-    <string name="invalid_username">Not a valid username</string>
-    <string name="invalid_password">Password must be >5 characters</string>
-    <string name="login_failed">"Login failed"</string>
+    <string name="fotSoliEmail">Email</string>
+    <string name="fotSoliName">Nome Completo</string>
+    <string name="fotSoliTelCel">Celular</string>
+    <string name="fotSoliDesc">Descrição</string>
+    <string name="fotSoliOrc">Orçamento</string>
+    <string name="fotSoliCpf">CPF</string>
+    <string name="fotSoliCpfDig">Dig</string>
     <string name="title_activity_all_fotografos">AllFotografos</string>
+
+    <!--Registro do Cliente-->
+    <string name="regCliTitle">Registrar</string>
+    <string name="regCliNome">Nome</string>
+    <string name="regCliCpf">CPF</string>
+    <string name="regCliCpfDig">Dig</string>
+    <string name="regCliTel">Telefone</string>
+    <string name="regCliCel">Celular</string>
+    <string name="regCliEnd">Endereço</string>
+    <string name="regCliReg">Registrar</string>
+    <string name="regCliCid">Cidade</string>
+    <string name="regCliNumEnd">Número</string>
+    <string name="regCliComp">Complemento</string>
+    <string name="regCliEmail">Email</string>
+    <string name="regCliNext">Próximo</string>
+    <string name="regCliLog">Login</string>
+    <string name="regCliSenha">Senha</string>
     <!--
     This string is used for square devices and overridden by hello_world in
     values-round/strings.xml for round devices.

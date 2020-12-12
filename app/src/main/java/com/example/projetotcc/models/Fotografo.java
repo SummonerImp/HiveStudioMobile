@@ -1,23 +1,31 @@
 package com.example.projetotcc.models;
 
-import java.util.Date;
+import android.content.Context;
+import android.database.sqlite.SQLiteDatabase;
 
-public class Fotografo {
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+public class Fotografo implements Serializable {
     private int fotografoCpf;
     private String nome;
-    private char celular;
-    private char telefone;
+    private int celular;
+    private int telefone;
     private int endId;
     private Date dataRegistro;
     private boolean isAtivo;
     private int pgtoHora;
     private int usuarioId;
     private int cpfDig;
+    private double nota;
+    private int tempoXp;
 
     public Fotografo() {
     }
 
-    public Fotografo(int fotografoCpf, String nome, char celular, char telefone, int endId, Date dataRegistro, boolean isAtivo, int pgtoHora, int usuarioId, int cpfDig) {
+    public Fotografo(int fotografoCpf, String nome, int celular, int telefone, int endId, Date dataRegistro, boolean isAtivo, int pgtoHora, int usuarioId, int cpfDig) {
         this.fotografoCpf = fotografoCpf;
         this.nome = nome;
         this.celular = celular;
@@ -46,19 +54,19 @@ public class Fotografo {
         this.nome = nome;
     }
 
-    public char getCelular() {
+    public int getCelular() {
         return celular;
     }
 
-    public void setCelular(char celular) {
+    public void setCelular(int celular) {
         this.celular = celular;
     }
 
-    public char getTelefone() {
+    public int getTelefone() {
         return telefone;
     }
 
-    public void setTelefone(char telefone) {
+    public void setTelefone(int telefone) {
         this.telefone = telefone;
     }
 
@@ -108,5 +116,35 @@ public class Fotografo {
 
     public void setCpfDig(int cpfDig) {
         this.cpfDig = cpfDig;
+    }
+
+    public double getNota() {
+        return nota;
+    }
+
+    public void setNota(double nota) {
+        this.nota = nota;
+    }
+
+    public int getTempoXp() {
+        return tempoXp;
+    }
+
+    public void setTempoXp(int tempoXp) {
+        this.tempoXp = tempoXp;
+    }
+
+    public List<Fotografo> selectAll(){
+        List<Fotografo> fotoData  = new ArrayList<>();
+        return fotoData;
+    }
+
+    public void insert(Fotografo data){
+        //db.insert();
+    }
+
+    @Override
+    public String toString() {
+        return nome;
     }
 }

@@ -1,5 +1,7 @@
 package com.example.projetotcc.models;
 
+import android.database.sqlite.SQLiteDatabase;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
